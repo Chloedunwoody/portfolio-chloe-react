@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
+import TestProject from './components/TestProject';
 import Journey from './components/Journey';
 import Hobbies from './components/Hobbies';
 import Contact from './components/Contact';
@@ -18,21 +18,16 @@ function App() {
       .then((data) => setData(data.message));
   }, []);
   return (
-    <div className="App">
-      <header className="App-header">
         <main>
           <Navbar/>
           <Home/>
           <About/>
           <Projects/>
+          <TestProject/>
           <Journey/>
           <Hobbies/>
           <Contact/>
         </main>
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>{!data ? "Loading..." : data}</p> */}
-      </header>
-    </div>
   );
 }
 
