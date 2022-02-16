@@ -1,71 +1,37 @@
 import React from 'react';
-
-const products = [
-    {
-      id: 1,
-      name: 'BuiltDifferent Mobile App',
-      href: 'https://github.com/LemireCoding/BuiltDifferentMobileApp',
-      price: 'Lang/Framework',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-      imageAlt: 'Project1',
-    },
-    {
-      id: 2,
-      name: 'Vet Clinic Mobile App',
-      href: 'https://github.com/Chloedunwoody/VetClinicFinalProjectMobileApp',
-      price: 'Lang/Framework',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-      imageAlt: 'Project1',
-    },
-    {
-      id: 3,
-      name: 'Temp sensor - Raspberrypi - backend',
-      href: 'https://github.com/NickEspitalier/temperature-webservice',
-      price: 'Lang/Framework',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-      imageAlt: 'Project1',
-    },
-    {
-      id: 4,
-      name: 'Contact Manager',
-      href: 'https://github.com/Chloedunwoody/ContactManager',
-      price: 'Lang/Framework',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-      imageAlt: 'Project1',
-    },
-    {
-      id: 5,
-      name: 'Arduino Light Meter',
-      href: 'https://github.com/Chloedunwoody/arduino-lightmeter2020',
-      price: 'Lang/Framework',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-      imageAlt: 'Project1',
-    },
-    // More products...
-  ]
+import { skills } from '../data/data';
+import { ChipIcon,BadgeCheckIcon } from "@heroicons/react/solid";
 
 export default function Projects() {
     return (
-        <div id="projects" className="bg-white">
-      <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 className="sr-only">Products</h2>
-
-        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-          {products.map((product) => (
-            <a key={product.id} href={product.href} className="group">
-              <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                <img
-                  src={product.imageSrc}
-                  alt={product.imageAlt}
-                  className="w-full h-full object-center object-cover group-hover:opacity-75"
-                />
+        <section id="skills">
+        <div className="container px-5 py-10 mx-auto">
+          <div className="text-center mb-20">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
+            Skills
+          </h1>
+            <ChipIcon className="w-10 inline-block mb-4" />
+            <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+              Skills &amp; Technologies
+            </h1>
+            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+              When speaking with a developper we often ask what they already know and granted it can make the process easier for onboarding, but What if you took on someone
+              who is new to the field and gave them a chance. I hope you take taht chance with me.
+            </p>
+          </div>
+          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            {skills.map((skill) => (
+              <div key={skill} className="p-2 sm:w-1/2 w-full">
+                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                  <BadgeCheckIcon className="text-[#C5E7D4] w-6 h-6 flex-shrink-0 mr-4" />
+                  <span className="title-font font-medium text-white">
+                    {skill}
+                  </span>
+                </div>
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
-              <p className="mt-1 text-lg font-medium text-gray-900">{product.price}</p>
-            </a>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
         );
 }

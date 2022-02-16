@@ -11,10 +11,16 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import HotelIcon from '@mui/icons-material/Hotel';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
+import SchoolIcon from '@mui/icons-material/School';
+import EventNoteIcon from '@mui/icons-material/EventNote';
 
 export default function Journey() {
     return (
         <div id="journey">
+          <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
+          My Journey
+        </h1>
             <Timeline position="alternate">
       <TimelineItem>
         <TimelineOppositeContent
@@ -23,20 +29,20 @@ export default function Journey() {
           variant="body2"
           color="text.secondary"
         >
-          9:30 am
+          DEC
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot>
-            <FastfoodIcon />
+          <TimelineDot color="primary" variant="outlined">
+            <SchoolIcon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
-            Eat
+          Social-Sciences
           </Typography>
-          <Typography>Because you need strength</Typography>
+          <Typography>Criminology</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -45,12 +51,42 @@ export default function Journey() {
           variant="body2"
           color="text.secondary"
         >
-          10:00 am
+          DEP
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="primary">
+            <SchoolIcon />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+            Computer Science Techonology
+          </Typography>
+          <Typography></Typography>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineConnector />
+          <TimelineDot color="primary" variant="outlined">
             <LaptopMacIcon />
+          </TimelineDot>
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+            Internship - ______
+          </Typography>
+          <Typography>Learned a lot here!</Typography>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineConnector sx={{ bgcolor: 'primary' }} />
+          <TimelineDot color="primary">
+            <RepeatIcon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -58,40 +94,11 @@ export default function Journey() {
           <Typography variant="h6" component="span">
             Code
           </Typography>
-          <Typography>Because it&apos;s awesome!</Typography>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineConnector />
-          <TimelineDot color="primary" variant="outlined">
-            <HotelIcon />
-          </TimelineDot>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span">
-            Sleep
-          </Typography>
-          <Typography>Because you need rest</Typography>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
-            <RepeatIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span">
-            Repeat
-          </Typography>
-          <Typography>Because this is the life you love!</Typography>
+          <Typography>Type faster! Code Code Code</Typography>
         </TimelineContent>
       </TimelineItem>
     </Timeline>
+    </div>
     </div>
     );
 }

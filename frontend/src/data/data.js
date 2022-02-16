@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "BuiltDifferent Mobile App'",
+    subtitle: "Xamarin.Forms",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "An app dedicated to personal trainers who are looking for a all in one app to manage their clients",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/LemireCoding/BuiltDifferentMobileApp",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Vet Clinic Mobile App",
+    subtitle: "Xamarin.Forms",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A frontend for a vet clinic where they can manage their personel.",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Chloedunwoody/VetClinicFinalProjectMobileApp",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Temp sensor - Raspberrypi - Backend",
+    subtitle: "Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A backend for a air quality sensor, to story a history of information based on the readings.",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/NickEspitalier/temperature-webservice",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Contact Manager",
+    subtitle: "C#",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A contact maanger allowing the user to manage all of the contacts in a single C# app.",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Chloedunwoody/ContactManager",
   },
 ];
 
@@ -51,10 +51,10 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Node.js",
+  "Python",
+  "C#",
+  "ASP.NET",
+  "MYSQL",
+  "TypeScript",
 ];
