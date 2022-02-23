@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import axios from 'axios';
 
 const products = [
     {
@@ -27,21 +28,47 @@ const products = [
     },
     {
       id: 4,
-      name: 'Embrodery',
+      name: 'Camping',
       href: 'https://instagram.com/stitchingsabbatical?utm_medium=copy_link',
       price: '',
-      imageSrc: 'https://queensbotanical.org/wp-content/uploads/2019/06/Orchid-Embroidery_Credit-Soraya-Navia.jpeg',
-      imageAlt: 'Embrodery',
+      imageSrc: 'https://canada-usa.huttopia.com/uploads/sites/2/2021/12/DSC3339.jpg-1600px.jpg',
+      imageAlt: 'Camping',
     },
     // More products...
   ]
+  
 
-export default function Hobbies() {
+function Hobbies() {
+  // const [hobbies, setHobbies] = useState([]);
+
+  // useEffect(() =>{
+  //   (async() =>{
+  //     const result = await axios.get('/');
+  //     setHobbies(result.data.hobbies);
+  //   })()
+  // }, []);
+  
     return (
         <div id="hobbies" className="bg-white">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-          
+          Database Hobbies
         </h1>
+        {/* <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+          {hobbies.map((hobbie) => (
+            <a key={hobbie.id} href={hobbie .href} className="group">
+              <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                <img
+                  src={hobbie.imageSrc}
+                  alt={hobbie.imageAlt}
+                  className="w-full h-full object-center object-cover grayscale group-hover:opacity-75"
+                />
+              </div>
+              <h3 className="mt-4 text-sm text-gray-700">{hobbies.name}</h3>
+              <p className="mt-1 text-lg font-medium text-gray-900">{hobbies.name}</p>
+            </a>
+          ))}
+        </div> */}
+
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Hobbies</h2>
 
@@ -64,3 +91,4 @@ export default function Hobbies() {
     </div>
         );
 }
+export default Hobbies;

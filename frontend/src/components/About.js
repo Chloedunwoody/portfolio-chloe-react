@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
-export default function About() {
+function About() {
+  const [personalInfo, setPersonalInfo] = useState([]);
+
+ useEffect(() =>{
+    (async() =>{
+      const result = await axios.get('/');
+      setPersonalInfo(result.data.personalInfo);
+    })()
+  }, []);
+
   return (
     <section id="about">
     <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -38,6 +48,7 @@ export default function About() {
   </section>
   );
 }
+export default About;
 // }
 //   <div id="about">
 //       <h1>About Me</h1>

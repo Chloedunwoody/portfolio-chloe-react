@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import axios from 'axios';
 import { skills } from '../data/data';
 import { ChipIcon,BadgeCheckIcon } from "@heroicons/react/solid";
 
-export default function Projects() {
+function Projects() {
+  // const [skills, setSkills] = useState([]);
+
+  // useEffect(() =>{
+  //   (async() =>{
+  //     const result = await axios.get('/');
+  //     setSkills(result.data.skills);
+  //   })()
+  // }, []);
+
     return (
         <section id="skills">
         <div className="container px-5 py-10 mx-auto">
@@ -35,3 +45,4 @@ export default function Projects() {
       </section>
         );
 }
+export default Projects;

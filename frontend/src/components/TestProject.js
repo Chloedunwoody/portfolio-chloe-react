@@ -1,8 +1,17 @@
-import { CodeIcon } from "@heroicons/react/solid";
-import React from "react";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import { projects } from "../data/data";
+import { CodeIcon } from "@heroicons/react/solid";
 
-export default function Projects() {
+function TestProjects() {
+  // const [projects, setProjects] = useState([]);
+
+  // useEffect(() =>{
+  //   (async() =>{
+  //     const result = await axios.get('/');
+  //     setProjects(result.data.projects);
+  //   })()
+  // }, []);
     return (
       <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -44,3 +53,4 @@ export default function Projects() {
     </section>
   );
 }
+export default TestProjects;

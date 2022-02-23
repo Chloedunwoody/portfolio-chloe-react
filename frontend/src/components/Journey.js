@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import axios from 'axios';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -14,7 +15,17 @@ import Typography from '@mui/material/Typography';
 import SchoolIcon from '@mui/icons-material/School';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 
-export default function Journey() {
+
+function Journey() {
+  const [journey, setJourney] = useState([]);
+
+  useEffect(() =>{
+    (async() =>{
+      const result = await axios.get('/');
+      setJourney(result.data.journey);
+    })()
+  }, []);
+
     return (
         <div id="journey">
           <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -102,3 +113,4 @@ export default function Journey() {
     </div>
     );
 }
+export default Journey;
