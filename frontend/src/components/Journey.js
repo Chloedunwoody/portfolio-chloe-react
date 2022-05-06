@@ -14,6 +14,7 @@ import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
 import SchoolIcon from '@mui/icons-material/School';
 import EventNoteIcon from '@mui/icons-material/EventNote';
+import { LibraryIcon } from "@heroicons/react/solid";
 
 
 function Journey() {
@@ -28,10 +29,17 @@ function Journey() {
 
     return (
         <div id="journey">
-          <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-          My Journey
-        </h1>
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+        <div className="flex flex-col w-full mb-20">
+        <LibraryIcon className="mx-auto inline-block w-10 mb-4" />
+        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
+            My Journey
+          </h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Here are some of my highlights and projectd that i am most proud of.
+          </p>
+        </div>
+        <div className="flex flex-wrap -m-4">
             <Timeline position="alternate">
       <TimelineItem>
         <TimelineOppositeContent
@@ -88,9 +96,9 @@ function Journey() {
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
-            Internship - ______
+            Internship - Union
           </Typography>
-          <Typography>Learned a lot here!</Typography>
+          <Typography>Worked on a MysteryShopping Web App .Net, C#, Postgres</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -103,14 +111,16 @@ function Journey() {
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
-            Code
+            Deloitte
           </Typography>
-          <Typography>Type faster! Code Code Code</Typography>
+          <Typography>New Position as a Salesforce Consultant</Typography>
         </TimelineContent>
       </TimelineItem>
     </Timeline>
     </div>
     </div>
+    </div>
+
     );
 }
 export default Journey;
