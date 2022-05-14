@@ -25,8 +25,9 @@ function Projects() {
               Skills &amp; Technologies
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              When speaking with a developper we often ask what they already know and granted it can make the process easier for onboarding, but What if you took on someone
-              who is new to the field and gave them a chance. I hope you take taht chance with me.
+              As a new developer we are often asked what we already know and what we have accomplished. Granted this may make the process of onboarding easier,
+              but what if you took a chance on someone who is wiling to learn and has the drive to succeed. What possibilities could arise 
+              though we may be new to the industry we have passion and drive to hit the ground running and I hope you take that chance with me.
             </p>
           </div>
           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

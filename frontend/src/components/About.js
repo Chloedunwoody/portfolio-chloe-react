@@ -20,7 +20,7 @@ function About() {
           <br className="hidden lg:inline-block" /> I'm might be the one you've been looking for.
         </h1>
         <p className="mb-8 leading-relaxed">
-         Welcome to my portfolio. Here is where you can find out all of the cool and intresting things about me, but most importantly what i've been working on
+         Welcome to my portfolio. Here is where you can find out all of the cool and interesting things about me, but most importantly what i've been working on
           and how i can bring value to your team. I hope that this portfolio will help answer some of the questions that you might have. I am someone who has always 
           confronted a challenge with a smile and in our forever evolving industry I feel that taking on new challenges is a feat in itself.
         </p>

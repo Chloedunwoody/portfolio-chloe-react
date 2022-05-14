@@ -21,7 +21,9 @@ function TestProjects() {
             Projects / Code
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Here are some of my highlights and projectd that i am most proud of.
+            Here are some of my personal and school projects that i have completed throughout my degree. 
+            Please feel free to explore the code by clicking on a project that interests you.
+            I wish to complete this page with many more personal projects as my career evolves.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

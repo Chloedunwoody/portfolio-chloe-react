@@ -29,7 +29,7 @@ function Contact() {
             frameBorder={0}
             marginHeight={0}
             marginWidth={0}
-            style={{ filter: "opacity(0.7)" }}
+            style={{ filter: "opacity(0.8)" }}
             src="https://maps.google.com/maps?q=brossard,QC&t=&z=13&ie=UTF8&iwloc=&output=embed"
           />
           <div className="bg-gray-700 relative flex flex-wrap py-6 rounded shadow-md">
