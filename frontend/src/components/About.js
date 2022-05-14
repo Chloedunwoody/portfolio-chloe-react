@@ -17,17 +17,18 @@ function About() {
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
           Hi, I'm Chloe.
-          <br className="hidden lg:inline-block" /> I'm the one you've been looking for.
+          <br className="hidden lg:inline-block" /> I'm might be the one you've been looking for.
         </h1>
         <p className="mb-8 leading-relaxed">
-         Welcome to my portfolio. Here is where you can find out all of the cool and intresting things about me. But most importantly what im sure you have come to see... What i've been working On
-          and how i can bring value to your team. I hope that this portfolio will help answer some of the questions that you might have. 
+         Welcome to my portfolio. Here is where you can find out all of the cool and intresting things about me, but most importantly what i've been working on
+          and how i can bring value to your team. I hope that this portfolio will help answer some of the questions that you might have. I am someone who has always 
+          confronted a challenge with a smile and in our forever evolving industry I feel that taking on new challenges is a feat in itself.
         </p>
         <div className="flex justify-center">
           <a
             href="#contact"
             className="inline-flex text-white bg-[#C5E7D4]  border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-            Work With Me
+            Contact Me
           </a>
           <a
             href="#projects"

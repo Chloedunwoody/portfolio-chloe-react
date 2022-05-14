@@ -37,7 +37,7 @@ function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">
+              <p className="mt-1 text-gray-200">
                 Brossard, QC
                 J4Z 1C2
               </p>
@@ -46,28 +46,29 @@ function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-[#C5E7D4] leading-relaxed">
+              <a className="text-[#C5E7D4] leading-relaxed text-xs">
                 chloe.dunwoody@hotmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">514-458-9882</p>
+              <p className="leading-relaxed text-gray-200">514-458-9882</p>
             </div>
           </div>
         </div>
+
 {/* netlify */}
         <form
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
           onSubmit={submit}>
           <h2 className="text-black sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+           Contact Me
           </h2>
           <div>
           <Avatar alt="Chloe Dunwoody" src=".\chloe.png" />
           <p className="leading-relaxed mb-5">
-            Let's get in touch!
+            If you have any further questions or would just like to chat about some of my projects, Don't hesitate.
           </p>
           </div>
           

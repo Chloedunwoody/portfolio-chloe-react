@@ -36,7 +36,7 @@ function Journey() {
             My Journey
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Here are some of my highlights and projectd that i am most proud of.
+            
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -61,6 +61,7 @@ function Journey() {
           <Typography variant="h6" component="span">
           Social-Sciences
           </Typography>
+          <Typography>2018</Typography>
           <Typography>Criminology</Typography>
         </TimelineContent>
       </TimelineItem>
@@ -83,7 +84,7 @@ function Journey() {
           <Typography variant="h6" component="span">
             Computer Science Techonology
           </Typography>
-          <Typography></Typography>
+          <Typography>May 2022</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -98,12 +99,13 @@ function Journey() {
           <Typography variant="h6" component="span">
             Internship - Union
           </Typography>
-          <Typography>Worked on a MysteryShopping Web App .Net, C#, Postgres</Typography>
+          <Typography>2022</Typography>
+          <Typography>Worked on a MysteryShopping Web App ASP.NET, C#, PostgreSQL</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'primary' }} />
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
           <TimelineDot color="primary">
             <RepeatIcon />
           </TimelineDot>
@@ -113,14 +115,14 @@ function Journey() {
           <Typography variant="h6" component="span">
             Deloitte
           </Typography>
-          <Typography>New Position as a Salesforce Consultant</Typography>
+          <Typography>2022</Typography>
+          <Typography>Salesforce Copnsultant</Typography>
         </TimelineContent>
       </TimelineItem>
     </Timeline>
     </div>
     </div>
     </div>
-
     );
 }
 export default Journey;

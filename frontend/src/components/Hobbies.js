@@ -30,7 +30,7 @@ const products = [
     {
       id: 4,
       name: 'Camping',
-      href: 'https://instagram.com/stitchingsabbatical?utm_medium=copy_link',
+      href: 'https://poissonblanc.ca/en/',
       price: '',
       imageSrc: 'https://canada-usa.huttopia.com/uploads/sites/2/2021/12/DSC3339.jpg-1600px.jpg',
       imageAlt: 'Camping',
@@ -55,7 +55,7 @@ function Hobbies() {
           <div className="flex flex-col w-full mb-20">
             <SunIcon className="mx-auto inline-block w-10 mb-4" />
             <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-              Database Hobbies
+             Hobbies
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Here are some of my highlights and projectd that i am most proud of.

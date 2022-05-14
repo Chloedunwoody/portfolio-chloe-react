@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "C#",
     description:
       "A contact maanger allowing the user to manage all of the contacts in a single C# app.",
-    image: "./project-4.gif",
+    image: "./project-4-1.png",
     link: "https://github.com/Chloedunwoody/ContactManager",
   },
 ];
