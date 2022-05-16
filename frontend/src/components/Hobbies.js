@@ -15,7 +15,7 @@ const hobbies = [
       id: 2,
       name: 'Ethical Hacking',
       href: 'https://www.hackthebox.com',
-      desc: "I have always been fascinated body ethical hacking, decoding, encryption, etc. and notably Cicada 3301, if you also have an interest in this topic, I highly recommend watching the YouTube series.",
+      desc: "I have always been fascinated by ethical hacking, decoding, encryption, etc. and notably Cicada 3301, if you also have an interest in this topic, I highly recommend watching the YouTube series.",
       imageSrc: 'https://cdn-images.threadless.com/threadless-media/artist_shops/shops/hackerinside/products/670982/shirt-1531953737-1d976e4024450621d0b5580735f957e3.png?v=3&d=eyJvbmx5X21ldGEiOiBmYWxzZSwgImZvcmNlIjogZmFsc2UsICJvcHMiOiBbWyJ0cmltIiwgW2ZhbHNlLCBmYWxzZV0sIHt9XSwgWyJyZXNpemUiLCBbXSwgeyJ3aWR0aCI6IDk5Ni4wLCAiYWxsb3dfdXAiOiBmYWxzZSwgImhlaWdodCI6IDk5Ni4wfV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzEyMDAsIDEyMDBdLCB7ImJhY2tncm91bmQiOiAiMDAwMDAwIn1dXX0=',
       imageAlt: 'Cicada 3301',
     },
