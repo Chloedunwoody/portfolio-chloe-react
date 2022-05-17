@@ -116,7 +116,7 @@ function Journey() {
             Deloitte
           </Typography>
           <Typography>2022</Typography>
-          <Typography>Salesforce Copnsultant</Typography>
+          <Typography>Salesforce Consultant</Typography>
         </TimelineContent>
       </TimelineItem>
     </Timeline>

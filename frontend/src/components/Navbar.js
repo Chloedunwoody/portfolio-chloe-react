@@ -20,7 +20,7 @@ export default function Navbar() {
           <Link to="hobbies" spy={true} smooth={true} offset={50} duration={500} className="mr-5 hover:text-emerald-200">Hobbies</Link>
         </nav>
         <Link to="contact" spy={true} smooth={true} offset={50} duration={500}  className="inline-flex items-center bg-[#D4EDDF] border-0 py-1 px-3 focus:outline-none hover:bg-[#C5E7D4] rounded text-base mt-4 md:mt-0">
-          Hire Me
+          Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
           </Link>
       </div>
